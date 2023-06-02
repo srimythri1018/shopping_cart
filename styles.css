@@ -1,0 +1,50 @@
+/* Write styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    position: sticky;
+    padding:20px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items a {
+     padding:0px 10px;
+     color:rgb(172, 171, 171)
+}
+
+.container {
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+}
+
+.context {
+    padding:20px;
+}
+
+.btns {
+    padding:20px;
+}
+img {
+    margin-top:60px;
+    width:60%;
+    height:40%;
+}
